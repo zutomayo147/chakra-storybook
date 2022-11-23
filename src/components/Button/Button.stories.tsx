@@ -1,8 +1,7 @@
-import Button from './Button';
+import cButton from './Button';
 
 export default {
-  title: 'Button',
-  component: Button,
+  title: 'Components/Button',
 };
 
-export const HelloButton = () => <Button>Hello World!</Button>;
+export const HelloButton = () => <cButton>Hello World!</cButton>;

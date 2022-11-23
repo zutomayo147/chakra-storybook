@@ -1,5 +1,7 @@
-function Button({ children }) {
-  return <button>{children}</button>;
+import { Button, ButtonGroup } from '@chakra-ui/react'
+
+function cButton({ children }) {
+  return <Button>{children}</Button>;
 }
 
-export default Button;
+export default cButton;
